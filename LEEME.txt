@@ -1,0 +1,35 @@
+ENTREGA DEL PROYECTO examen para evaluar los Resultados de Aprendizaje 3.1 y 3.2. del módulo de Programación Orientada a Objetos de Python.
+ALUMNO: ANGEL TOMÁS MORENO SENÉN
+
+Juego de Combate por Turnos con Personajes y Habilidades
+
+En el directorio raíz se encuentra el archivo main.py donde comienza el juego.
+Este directorio ofrece por terminal jugar con CLI y con GUI (hecha con Tkinter).
+En este mismo directorio raíz se guarda el archivo partida.JSON si se opta por guardar la partida y es el que se carga.
+
+ARQUITECTURA
+He seguido la arquitectura Modelo-Vista-Controlador
+
+ARGUMENTO Y DESARROLLO DEL JUEGO:
+El juego es un juego de rol por turnos con los personajes de la serie "Dragones y Mazmorras"
+Se elige un jugador y, a continuación, se combate contra el resto.
+Para que el juego sea "jugable" el jugador dispone de más puntos de vida y pociones que el resto y de un botón u opción "Kame-Hame" con el que mata de una vez al adversario para poder pasar los enemigos rápidamente.
+Cada jugador dispone de pociones que le devuelven parte de la vida sin exceder de la vida máxima.
+Cada tres movimientos se activa el "ataque cargado" que causa más daño al adversario.
+
+
+MENÚS:
+Seleccionada la interfaz hay un menú principal:
+1-Iniciar juego
+2-Guardar partida
+3-Continuar partida 
+4-Cargar partida. Hay que indicar que si se carga la partida, a continuación hay que indicar "Continuar la partida" para que la partida continúe donde se quedó la partida cargada.
+
+
+
+Por un error de diseño en la Vista-Controlador jugando con la GUI sólo se puede elegir como jugador al "Arquero" o al "Bárbaro" al optar por "NUEVO JUEGO" el display de Tkinter lo muestra. En la CLI no hay problemas.
+
+REPOSITORIO EN GITHUB:
+El repositorio se encuentra aquí para ver los commits
+https://github.com/atmsDAWDAMAlicante/CEPython2526/tree/main/Modulo_2_POO/Proyecto_Final_POO
+
