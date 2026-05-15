@@ -1,0 +1,5 @@
+# Proyecto Final POO - RPG MVC
+# No requiere dependencias externas de pip
+# Solo librerías estándar de Python
+
+tkinter
